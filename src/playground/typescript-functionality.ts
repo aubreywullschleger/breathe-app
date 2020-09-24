@@ -1,3 +1,8 @@
+// Types by Inference
+// // TypeScript knows the JavaScript language and will generate types for you in many cases. TypeScript will use the value as its type:
+// let helloWorld = 'hello world' // helloWorld = let helloWorld: string (in ts)
+
+// Defining types
 // // to create an object with an inferred type which includes name: string and id: number, you can write:
 // const user = {
 //   name: 'aubrey',
@@ -35,11 +40,16 @@ class UserAccount {
 
 const user: User = new UserAccount('murphy', 1)
 
-// use interfaces to annotate parameters and return values to functions:
-function getAdminUser(): User {
-    // ...
-}
+// // use interfaces to annotate parameters and return values to functions:
+// function getAdminUser(): User {
+//     // ...
+// }
 
 function deleteUser(user: User) {
     // ...
 }
+
+// Composing types
+// w/ ts we can create complex types by combining simple ones, two popular ways are with Unions and with Generics
+
+// Unions, you can declare that a type could be one of many typess
