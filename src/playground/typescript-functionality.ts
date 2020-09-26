@@ -1,3 +1,8 @@
+// TypeScript: A Static Type Checker
+// static checking is detecting errors in code without running it
+// static type checking is determining what’s an error and what’s not based on the kinds of values being operated on
+// TypeScript checks a program for errors before execution, and does so based on the kinds of values, it’s a static type checker
+
 // Types by Inference
 // // TypeScript knows the JavaScript language and will generate types for you in many cases. TypeScript will use the value as its type:
 // let helloWorld = 'hello world' // helloWorld = let helloWorld: string (in ts)
